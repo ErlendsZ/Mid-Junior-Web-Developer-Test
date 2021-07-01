@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title> Junior_Test </title>
-	<link rel="stylesheet" href="Text.css" />
-	<link rel="stylesheet" href="Containers.css" />
-	<link rel="stylesheet" href="Social.css" />
-	<link rel="stylesheet" href="Heading.css" />
-	<link rel="stylesheet" href="Terms.css" />
-	<link rel="stylesheet" href="Input.css" />
+	<link rel="stylesheet" href="Styles/Text.css" />
+	<link rel="stylesheet" href="Styles/Containers.css" />
+	<link rel="stylesheet" href="Styles/Social.css" />
+	<link rel="stylesheet" href="Styles/Heading.css" />
+	<link rel="stylesheet" href="Styles/Terms.css" />
+	<link rel="stylesheet" href="Styles/Input.css" />
 </head>
 <body>
 <style>
@@ -111,7 +111,7 @@
 
 	
 	<div class="grid_pineapple">
-		<img src="Images/Summer.jpg" alt="Summper Pineapples">	
+		<img src="Background/Summer.jpg" alt="Summper Pineapples">	
 	</div>
 		
 	</div>
