@@ -1,0 +1,162 @@
+/* Container has already left 218px, which increases by 66px from 0px*/
+
+.Social_Icons
+{
+position: absolute;
+width: 244px;
+height: 46px;
+left: 218px;
+top: 791px;
+
+
+}
+
+.Facebook
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 0px;
+
+}
+
+    .FB_icon
+    {
+        position: absolute;
+        left: 19px; /* Converted to pixels from %  (237 -219px)*/
+        right: 87.24%;
+        bottom: 7.5px; /* Converted to pixels from %  */
+        
+    }
+
+    .FB_base
+    {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 0px;
+
+    }
+
+
+.Instagram
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 66px;
+
+}
+    .IG_Base 
+    {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 66px;
+    }
+
+    .IG_icon
+    {
+        position: absolute;
+        left: 15px; /* Converted to pixels from % */
+        right: 87.24%;
+        bottom: 7.5px; /* Converted to pixels from % */
+        
+    }
+
+.Twitter
+{
+	
+position: absolute;
+width: 46px;
+height: 46px;
+left: 132px;
+
+}
+
+
+    .TW_base 
+        {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        }
+
+        .TW_icon
+        {
+            position: absolute;
+            left: 15px;
+            right: 80.16%;
+            bottom: 8px;
+        }
+
+        
+.YouTube
+{
+position: relative;
+width: 46px;
+height: 46px;
+left: 198px;
+border: 2px solid #E2E3E4;
+box-sizing: border-box;
+border-radius: 23px;
+}
+
+.YouTube:hover
+{
+position: relative;
+width: 46px;
+height: 46px;
+left: 198px;            
+border-radius: 23px; /* to draw circle in square base */
+background: #FF0000;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: none;
+
+}
+
+.YouTube:focus
+{
+position: relative;
+width: 46px;
+height: 46px;
+left: 198px;
+border-radius: 23px;
+background: #CC0000;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: none;
+
+}
+
+.YT_icon
+{
+width: 100%;
+height: 100%;;
+background: url("Images/ic_YouTube.svg") no-repeat;
+background-repeat: no-repeat;
+background-position: left 13px bottom 18px
+
+}
+
+.YT_base
+{    
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    
+    
+}
+
+.YT_icon:hover
+{
+ 
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    background: url("Images/ic_YouTube_white.svg") no-repeat;
+    
+    
+    
+    
+    
+}
