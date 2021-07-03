@@ -1,0 +1,85 @@
+
+.TOS_txt
+{
+	/* terms of service */
+
+position: absolute;
+width: 359px;
+height: 28px;
+left: 41px;
+top: 0px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+
+color: #6A707B;
+}
+.TOS
+{
+position: absolute;
+width: 400px;
+height: 28px;
+left: 140px;
+top: 662px;
+}
+
+
+
+/* Hide the browser's default checkbox */
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+
+/*  create custom check mark*/
+.checkmark
+{
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 6px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #E3E3E4;
+box-sizing: border-box;
+border-radius: 3px;
+
+}
+
+.container_checkbox:hover input ~ .checkmark 
+{
+	background-color: #ccc;
+	border: 1px solid #E3E3E4;
+	box-sizing: border-box;
+	border-radius: 3px;
+  }
+  
+/* When checked */
+.container_checkbox input:checked ~ .checkmark 
+{
+	
+	background-image: url(../Images/Checkmark.svg);
+}
+
+/* checkmark/indicator (hidden when not checked) */
+.checkmark:after 
+{
+	content: "";
+	position: absolute;
+	display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container_checkbox input:checked ~ .checkmark:after 
+  {
+	display: block;
+  }
+
