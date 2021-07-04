@@ -1,0 +1,281 @@
+/* Container has already left 218px, which increases by 66px from 0px*/
+
+.Social_Icons
+{
+position: absolute;
+width: 244px;
+height: 46px;
+left: 218px;
+top: 791px;
+
+
+}
+
+.Facebook
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 0px;
+border: 2px solid #E2E3E4;
+box-sizing: border-box;
+border-radius: 23px; /* to draw circle in square base */
+}
+
+.Facebook:hover
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 0px;
+background: #4267B2;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border-radius: 23px; /* to draw circle in square base */
+border: none;
+}
+
+.Facebook:focus
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 0px;
+background: #2F4A80;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border-radius: 23px; 
+border: none;
+
+}
+
+    .FB_icon    /* icons don't change on focus, only hover*/
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;;
+        background: url("../Images/ic_facebook.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-position: left 17px bottom 17px; 
+    }
+
+    .FB_icon:hover 
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;;
+        background: url("../Images/ic_facebook_white.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-position: left 19px bottom 15px; 
+    }
+
+    .FB_base
+    {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 0px;
+
+    }
+
+
+.Instagram
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 66px;
+border: 2px solid #E2E3E4;
+box-sizing: border-box;
+border-radius: 23px; /* to draw circle in square base */
+}
+
+.Instagram:hover
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 66px;
+background: #C13584;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border-radius: 23px;
+border: none;
+}
+   
+.Instagram:focus
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 66px;
+background: #8F2762;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border-radius: 23px;
+border: none;
+}
+
+    .IG_Base 
+    {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 66px;
+    }
+
+    .IG_icon
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;;
+        background: url("../Images/ic_instagram.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-position: left 13px bottom 13px; 
+        
+    }
+
+    .IG_icon:hover
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;;
+        background: url("../Images/ic_instagram_white.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-position: left 15px bottom 15px; 
+    }
+
+.Twitter
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 132px;
+border: 2px solid #E2E3E4;
+box-sizing: border-box;
+border-radius: 23px;
+}
+
+.Twitter:hover
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 132px;
+border-radius: 23px; 
+background: #1DA1F2;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: none;
+}
+
+.Twitter:focus
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 132px;
+border-radius: 23px; 
+background: #177FBF;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: none;
+}
+
+
+.TW_base 
+{
+position: absolute;
+width: 46px;
+height: 46px;
+}
+
+    .TW_icon
+    {
+        width: 100%;
+        height: 100%;;
+        background: url("../Images/ic_twitter.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-position: left 14px bottom 18px;
+    }
+
+    .TW_icon:hover
+    {
+        width: 100%;
+        height: 100%;;
+        background: url("../Images/ic_twitter_white.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-position: left 15px bottom 16px;
+    }
+
+        
+.YouTube
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 198px;
+border: 2px solid #E2E3E4;
+box-sizing: border-box;
+border-radius: 23px;
+}
+
+.YouTube:hover
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 198px;            
+border-radius: 23px; 
+background: #FF0000;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: none;
+
+}
+
+.YouTube:focus
+{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 198px;
+border-radius: 23px;
+background: #CC0000;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: none;
+
+}
+
+.YT_base
+{    
+    position: absolute;
+    width: 46px;
+    height: 46px;
+
+}
+
+    .YT_icon
+    {
+
+    width: 100%;
+    height: 100%;;
+    background: url("../Images/ic_YouTube.svg") no-repeat;
+    background-repeat: no-repeat;
+    background-position: left 14px bottom 19px;
+
+
+    }
+
+    .YT_icon:hover
+    {
+       
+        width: 100%;
+        height: 100%;;
+        background: url("../Images/ic_youtube_white.svg") no-repeat;
+        background-repeat: no-repeat;
+        background-position: left 15px bottom 18px;
+
+    }
+    
+	.Success
+	{
+		position: absolute;
+		width: 44px;
+		height: 70px;
+		left: 140px;
+		top: 269px;
+	}
