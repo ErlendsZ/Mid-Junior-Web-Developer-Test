@@ -1,0 +1,104 @@
+
+.Base
+{
+
+position: absolute;
+width: 663px;
+height: 0px;
+left: 0px;
+height: 70px;
+
+background: #FFFFFF;
+border: 1px solid #E3E3E4;
+box-sizing: border-box;
+}
+
+
+input   /* removes default formating */
+{
+    outline: none;
+}
+
+
+
+
+#email_input:hover   /* maybe focus and hover is mistmatched in figma */
+{  
+    border: 1px solid #4066A5;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+    
+}
+
+#email_input:focus 
+{  
+
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+    
+}
+
+#email_input {  /* for line */
+	background-image: url(../Images/Input_Line.svg);
+	background-size: 4px;
+	background-repeat: no-repeat;
+}
+
+
+.email_input
+{
+
+z-index: 2; /* input layer is 2 */
+
+padding-left: 44px;
+position: absolute;
+width: 663px;
+height: 60px;
+left: 100px;
+top: 539px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #6A707B;
+
+background: #FFFFFF;
+border: 1px solid #E3E3E4;
+box-sizing: border-box;
+
+}
+
+.Arrow
+{   
+    z-index: 2; /* input layer is 2 */
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    bottom: 499px;
+    left: 699px;
+    top: 564px;
+    background-image: url(../Images/ic_arrow.svg);
+    border: none;
+    background-color:  #FFFFFF;;
+    
+}
+
+.Arrow:hover
+{   
+    z-index: 2; /* input layer is 2 */
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    bottom: 499px;
+    left: 699px;
+    top: 564px;
+    background-image: url(../Images/ic_arrow_hover.svg); /*to go back to image folder */
+    border: none;
+
+    
+}
+
